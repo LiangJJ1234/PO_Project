@@ -10,6 +10,8 @@ class TestDisplay():
     def setup(self):
         self.driver = init_driver()
         self.display_page = DisplayPage(self.driver)
+        
+        
 
     def test_display_input(self):
         # 点击放大镜
