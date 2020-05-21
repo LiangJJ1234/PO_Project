@@ -28,11 +28,11 @@ class TestNetwork():
         self.network_page.click_first_network()
         self.network_page.click_4g()
     
-    def test_network_5g(self):
+    def test_network_9g(self):
         self.network_page.click_more()
         self.network_page.click_network()
         self.network_page.click_first_network()
-        self.network_page.click_5g()
+        self.network_page.click_9g()
     
     def test_network_6g(self):
         self.network_page.click_more()
